@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   port: process.env.PORT || 8081,
@@ -15,4 +15,4 @@ module.exports = {
   authentication: {
     jwtSecret: process.env.JWT_SECRET || 'secret'
   }
-};
+}
